@@ -60,4 +60,5 @@ cisla_serazena = ", ".join(cisla_list)
 print(f"Seřazená čísla: \n{cisla_serazena}")
 
 # comment
+# second comment
     
