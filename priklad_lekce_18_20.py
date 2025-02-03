@@ -58,4 +58,6 @@ for i in range(len(cisla_list)):
 # vypis serazenych cisel do konzole
 cisla_serazena = ", ".join(cisla_list)
 print(f"Seřazená čísla: \n{cisla_serazena}")
+
+# comment
     
