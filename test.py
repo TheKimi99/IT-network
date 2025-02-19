@@ -1,2 +1,2 @@
-a = 3
-
+text = "Hello123"
+print(text.isdigit())
