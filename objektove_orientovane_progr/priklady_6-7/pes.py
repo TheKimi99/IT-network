@@ -6,5 +6,8 @@ class Pes():
     def __init__(self, jmeno):
         self.jmeno = jmeno
 
-    def zestarni(self,cislo):
-        self.vek += cislo
+    def __str__(self):
+        return f"{self.jmeno} ({self.vek})"
+
+    def zestarni(self):
+        self.vek += 1

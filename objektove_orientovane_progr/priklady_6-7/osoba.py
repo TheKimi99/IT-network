@@ -1,8 +1,10 @@
 
 class Osoba:
+    jmeno = None
+    pes1 = None
 
-    def __init__(self,jmeno1):
-        self.jmeno = jmeno1
+    def __init__(self,jmeno):
+        self.jmeno = jmeno
 
-    # def pes(self,pes1):
-    #     self.pes = pes1
+    def pes(self,pes):
+        self.pes1 = pes
